@@ -39,7 +39,7 @@ TCP connection.
 COMPILING:
 =========
 To compile both the client and server programs simply run the following command in the project directory:
-$ make all
+    $ make all
 
 POSSIBLE ERRORS WHILE COMPILING:
 ================================
