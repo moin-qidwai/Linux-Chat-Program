@@ -3,7 +3,7 @@ Linux-Chat-Program
 
 This is the server and client code in C for a simple chat program for multiple client communication.
 
-Detailed description:
+DETAILED DESCRIPTION:
 =====================
 
 This repository contains code for a very simple chat program implemented on the linux system, using base system libraries and the C programming language. The program consists of two major components, the first being the server program and the second is the Client program.
@@ -46,9 +46,9 @@ POSSIBLE ERRORS WHILE COMPILING:
 
 1. chat_client.c:4:20: fatal error: curses.h: No such file or directory
 -----------------------------------------------------------------------
-    In order to solve this is one must use this command on fedora/CentOS
+    In order to solve this one must use this command on fedora/CentOS:
       $ yum install ncurses-devel ncurses
-    And this on Ubuntu/Debian:
+    And this command on Ubuntu/Debian:
       $ sudo apt-get install libncurses5-dev libncursesw5-dev
 
 
